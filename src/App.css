@@ -1,22 +1,94 @@
-.App {
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: black;
+}
+
+.card {
+  padding: 1.5rem 2rem;
+  background: white;
+}
+
+.header {
+  background: grey;
+  color: white;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  width: 18rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.progress {
+  border: 1px solid #e6e6e6;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.progressBar {
+  background: #f16a45;
+  padding: 0.5rem 0;
+}
+
+.primaryText {
+  color: #f16a45;
+}
+
+.textWrapper {
+  margin: 0 auto;
+  max-width: 17rem;
+}
+
+.title {
+  padding: 0.8rem 0.5rem;
+  position: absolute;
+}
+
+.inputEl {
+  padding: 0.7rem 1rem 0.75rem 2rem;
+  font-size: 1rem;
+  width: 46%;
+  outline: none;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.submitBtn {
+  background: #1dc431;
   color: white;
+  padding: 0.8rem 0rem;
+  font-size: 1rem;
+  font-weight: bold;
+  vertical-align: bottom;
+  margin-left: 5px;
+  width: 33%;
+  outline: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #09d3ac;
+.link {
+  color: #6ec5e5;
+  font-weight: bold;
+  margin: 1.5rem 0 1rem;
+  display: block;
+  cursor: pointer;
+}
+
+.shareBtn {
+  margin: 0.5rem 0;
+  padding: 1rem 0;
+  border: 1px solid #e6e6e6;
+  font-size: 1rem;
+  width: 48%;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+
+.errorText {
+  position: absolute;
+  margin: 0;
+  color: red;
+  font-size: 0.6rem;
 }
